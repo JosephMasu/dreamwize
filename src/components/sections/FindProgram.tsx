@@ -3,7 +3,7 @@ import Image from "next/image";
 const FindProgram: React.FC = () => {
   return (
     <div className="flex flex-col lg:flex-row items-start justify-between container mx-auto px-6 lg:px-40">
-      <div className="w-full lg:w-1/2 flex justify-center mb-10 lg:mb-0 relative">
+      <div className=" w-auto flex justify-center mb-10 lg:mb-0 relative">
         <div className="rounded-xl p-6 flex justify-center items-center relative overflow-hidden">
           <div 
             className="absolute inset-0 bg-no-repeat bg-contain -z-10 h-full" 
@@ -22,7 +22,7 @@ const FindProgram: React.FC = () => {
 
       <div className="w-full lg:w-1/2 flex flex-col lg:pl-12 relative lg:py-10"> 
         
-        <h2 className="bg-[url('/svg/stepsbg.svg')] font-Figtree font-bold text-dream-black text-2xl px-2 py-2 lg:text-4xl mb-6">
+      <h2 className="bg-[url('/svg/stepsbg.svg')] font-Figtree font-bold text-dream-black text-2xl px-2 py-2 lg:text-4xl mb-6 whitespace-nowrap">
           Applying should be faster
         </h2>
 

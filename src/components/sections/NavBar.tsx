@@ -42,7 +42,7 @@ const Navbar: React.FC = () => {
         </ul>
 
         
-        <button className="hidden lg:block px-4 ml-10 py-2 bg-dream-green border-green-600 bg-dream-bg-green border-2  text-dream-black font-Figtree rounded-md hover:bg-green-600">
+        <button className="hidden lg:block px-4 ml-10 py-2 bg-bg-custom-gradient border-green-600 bg-dream-bg-green border-2  text-dream-black font-Figtree rounded-md hover:bg-green-200">
           Find counsellor
         </button>
 
