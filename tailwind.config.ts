@@ -27,9 +27,10 @@ const config: Config = {
         "dream-uk-bg": "#E6FAED",
         "dream-gray": "#90919C",
         "dream-bg": "#FAFDF3",
-        "dream-bg-green": "#D7FF7B80",
-        
-        
+        "dream-bg-green": "#D7FF7B80",  
+      },
+      backgroundImage: {
+        'custom-gradient': 'linear-gradient(180deg, #D7FF7B 0%, #F2FFD4 100%)',
       },
       rotate: {
         '40': '40deg', 
