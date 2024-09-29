@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const FindProgram: React.FC = () => {
   return (
-    <div className="flex flex-col lg:flex-row items-start justify-between container mx-auto px-6 lg:px-40">
+    <div className="flex flex-col lg:flex-row items-start justify-between container mx-auto px-6 lg:px-20">
       <div className=" w-auto flex justify-center mb-10 lg:mb-0 relative">
         <div className="rounded-xl p-6 flex justify-center items-center relative overflow-hidden">
           <div 

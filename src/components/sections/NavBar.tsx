@@ -12,7 +12,7 @@ const Navbar: React.FC = () => {
 
   return (
     <nav className="bg-white shadow-custom-light-blue sticky top-0 z-50">
-      <div className="container mx-auto px-4 sm:px-8 md:px-16 lg:px-40 py-4 flex justify-between items-center">
+      <div className="container mx-auto px-4 sm:px-8 md:px-16 lg:px-30 py-4 flex justify-between items-center">
         <div className="flex items-center flex-grow">
           <Link href="/" className="flex items-center">
             <Logo />

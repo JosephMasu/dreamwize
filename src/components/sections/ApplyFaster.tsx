@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const ApplyFaster: React.FC = () => {
   return (
-    <div className="flex flex-col lg:flex-row items-start justify-between container mx-auto px-6 lg:px-40 mt-6 lg:mt-10"> 
+    <div className="flex flex-col lg:flex-row md:rounded-md lg:px-20 items-start justify-between container mx-auto px-6 py-8 lg:py-20"> 
       
       <div className="w-auto flex justify-center relative mb-6 lg:mb-0"> 
         <div className="rounded-xl p-6 flex justify-center items-center relative overflow-hidden">
