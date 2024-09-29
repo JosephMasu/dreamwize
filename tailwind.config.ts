@@ -34,11 +34,20 @@ const config: Config = {
       },
       rotate: {
         '40': '40deg', 
+        'sm': '-23deg',
         '-50': '-50deg', 
         '90': '90deg', 
       },
+      animation: {
+        'spin-slow': 'spin 8s linear infinite',
+      },
       fontFamily: {
         Figtree: ['Figtree', 'sans-serif'],
+      },
+      fontSize: {
+        'lg': '3rem',
+        'md': '2rem',
+        'sm': '1rem',
       },
     },
   },

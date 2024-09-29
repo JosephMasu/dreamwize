@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const HowToApply: React.FC = () => {
   return (
-    <div className="flex flex-col lg:flex-row bg-dream-bg sm:rounded-sm md:rounded-md lg:px-40 items-start justify-between container mx-auto px-6 py-8 lg:py-20">
+    <div className="flex flex-col lg:flex-row bg-dream-bg sm:rounded-sm md:rounded-md lg:px-30 items-start justify-between container mx-auto px-6 py-8 lg:py-20">
       <div className="w-full lg:w-1/2 flex flex-col lg:pl-12 relative py-10">
         <h2 className="bg-[url('/svg/background.svg')] font-Figtree font-bold text-dream-black text-2xl lg:text-4xl mb-6 ">
           Study Options
