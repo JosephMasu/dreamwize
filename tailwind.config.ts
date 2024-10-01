@@ -28,6 +28,16 @@ const config: Config = {
         "dream-gray": "#90919C",
         "dream-bg": "#FAFDF3",
         "dream-bg-green": "#D7FF7B80",  
+        "dream-ba": "#90919C",  
+        "dream-ba-bg": "#F7F7F7",  
+        "dream-ma": "#976A00",  
+        "dream-ma-bg": "#FEE199", 
+        "dream-hi": "#6405AB", 
+        "dream-hi-bg": "#DECBFD", 
+        "dream-di": "#39B44A", 
+        "dream-di-bg": "#D7FF7B", 
+         
+        
       },
       backgroundImage: {
         'custom-gradient': 'linear-gradient(180deg, #D7FF7B 0%, #F2FFD4 100%)',
@@ -48,6 +58,11 @@ const config: Config = {
         'lg': '3rem',
         'md': '2rem',
         'sm': '1rem',
+      },
+      borderRadius: {
+        'custom-lg': '60px', 
+        'custom-md': '32px', 
+        'custom-sm': '16px', 
       },
     },
   },
