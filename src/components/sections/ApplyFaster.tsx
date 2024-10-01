@@ -1,10 +1,11 @@
 import Image from "next/image";
 import React, { forwardRef } from "react";
+
 const ApplyFaster = forwardRef<HTMLDivElement>((_, ref) => {
   return (
     <div 
-    ref={ref}
-    className="md:flex md:flex-col-2 lg:flex-row md:rounded-md lg:px-20 items-start justify-between container mx-auto px-6 py-8 lg:py-20 gap-20"> 
+      ref={ref}
+      className="md:flex md:flex-col-2 lg:flex-row md:rounded-md lg:px-20 items-start justify-between container mx-auto px-6 py-8 lg:py-20 gap-20"> 
       
       <div className="w-full lg:w-1/2 flex justify-center relative mb-6 lg:mb-0"> 
         <div className="rounded-xl p-6 flex justify-center items-center relative overflow-visible">
@@ -30,7 +31,6 @@ const ApplyFaster = forwardRef<HTMLDivElement>((_, ref) => {
 
         <ul className="space-y-9">
           {[
-
             {
               imgSrc: "/svg/getintuoch.svg",
               title: "Get in touch",
@@ -66,5 +66,8 @@ const ApplyFaster = forwardRef<HTMLDivElement>((_, ref) => {
     </div>
   );
 });
+
+// Setting the display name for the component
+ApplyFaster.displayName = "ApplyFaster";
 
 export default ApplyFaster;
