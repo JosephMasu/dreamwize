@@ -11,17 +11,17 @@ const Footer = forwardRef<HTMLElement, React.HTMLProps<HTMLElement>>((props, ref
     const handleResize = () => {
       const screenWidth = window.innerWidth;
       if (screenWidth >= 1024) {
-        setImageDimensions({ width: "402px", height: "547px" }); 
+        setImageDimensions({ width: "402px", height: "547px" });
       } else if (screenWidth >= 768) {
-        setImageDimensions({ width: "200px", height: "auto" }); 
+        setImageDimensions({ width: "200px", height: "auto" });
       } else if (screenWidth >= 640) {
-        setImageDimensions({ width: "300px", height: "auto" }); 
+        setImageDimensions({ width: "300px", height: "auto" });
       } else {
-        setImageDimensions({ width: "100%", height: "auto" }); 
+        setImageDimensions({ width: "100%", height: "auto" });
       }
     };
 
-    handleResize(); 
+    handleResize();
     window.addEventListener("resize", handleResize);
 
     return () => {
@@ -49,13 +49,15 @@ const Footer = forwardRef<HTMLElement, React.HTMLProps<HTMLElement>>((props, ref
           style={{
             width: imageDimensions.width,
             height: imageDimensions.height,
-            maxWidth: "90%", 
+            maxWidth: "90%",
           }}
         />
       </div>
     </footer>
   );
 });
+
+// Set the display name for the component
 Footer.displayName = "Footer";
 
 export default Footer;

@@ -86,8 +86,8 @@ const Navbar: React.FC<NavbarProps> = ({ scrollToFooter, scrollToHowToApply, scr
           <li>
             <button
               onClick={() => {
-                scrollToFooter(); // Scroll to footer
-                setIsOpen(false); // Close the menu
+                scrollToFooter(); 
+                setIsOpen(false); 
               }}
               className="text-black font-Figtree font-normal hover:text-gray-600 text-base"
             >
