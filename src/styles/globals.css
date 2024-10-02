@@ -1,28 +1,35 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Importing the Figtree font */
 @import '@fontsource/figtree';
 @import '@fontsource/figtree/400.css';
 @import '@fontsource/figtree/500.css';
 @import '@fontsource/figtree/700.css';
+
+/* Defining light theme colors for background and foreground */
 :root {
   --background: #ffffff;
   --foreground: #171717;
 }
 
+/* Optional: Ensure dark theme is ignored by overriding media query settings */
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #ffffff; /* Override to force light background */
+    --foreground: #171717; /* Override to force light text color */
   }
 }
 
+/* Applying the theme colors and a default font-family */
 body {
   color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--background); /* Use background-color for better consistency */
+  font-family: 'Figtree', Arial, Helvetica, sans-serif; /* Using Figtree as the primary font */
 }
 
+/* Custom utility class for balanced text wrapping */
 @layer utilities {
   .text-balance {
     text-wrap: balance;

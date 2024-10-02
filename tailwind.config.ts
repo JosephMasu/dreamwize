@@ -12,8 +12,8 @@ const config: Config = {
         'custom-light-blue': '0 1px 6px -1px rgba(195, 228, 255, 0.5), 0 2px 4px -1px rgba(195, 228, 255, 0.3)', // Shadow using #C3E4FF
       },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        background: "var(--background)", // Light theme background
+        foreground: "var(--foreground)", // Light theme foreground
         "dream-green": "#D7FF7B",
         "dream-blue": "#4D61F4",
         "dream-white": "#D0EEF9", 
@@ -70,4 +70,5 @@ const config: Config = {
   },
   plugins: [],
 };
+
 export default config;
