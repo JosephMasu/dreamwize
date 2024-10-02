@@ -3,7 +3,7 @@ import Image from "next/image";
 const FindProgram: React.FC = () => {
   return (
     <div className="md:flex md:flex-col-2 lg:flex-row items-start justify-between container mx-auto px-6 lg:px-20 gap-20 ">
-      <div className="w-auto flex justify-center md:mb-10 -mb-[4rem] lg:mb-0 relative">
+    <div className="w-auto flex justify-center md:mb-10 -mb-[4rem] lg:mb-[7rem] relative">      
       <div className="rounded-xl p-10 flex justify-center items-center relative">
         <div 
           className="absolute inset-0 bg-no-repeat bg-contain -z-10 h-full" 
@@ -14,8 +14,7 @@ const FindProgram: React.FC = () => {
           alt="Graduant"
           width={410}  
           height={474} 
-          className="rounded-xl object-contain mb-20 lg:-mt-[3rem] md:mb-[1rem] sm:mt-[-0.5rem] mt-[1rem]" 
-        />
+          className="rounded-xl object-contain mb-20 lg:-mt-[7rem] md:mb-[1rem] sm:mt-[-0.5rem] mt-[1rem]"         />
       </div>
     </div>
       <div className="w-full lg:w-1/2 flex flex-col lg:pl-12 relative lg:py-10 mb-16"> 
