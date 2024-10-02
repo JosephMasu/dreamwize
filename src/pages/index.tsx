@@ -8,9 +8,9 @@ import HowToApply from "@/components/sections/HowToApply";
 import ApplyFaster from "@/components/sections/ApplyFaster";
 
 export default function Home() {
-  const footerRef = useRef<HTMLDivElement>(null); // Create a ref for the footer
-  const howToApplyRef = useRef<HTMLDivElement>(null); // Create a ref for the HowToApply section
-  const ApplyFasterRef = useRef<HTMLDivElement>(null); // Create a ref for the HowToApply section
+  const footerRef = useRef<HTMLDivElement>(null); 
+  const howToApplyRef = useRef<HTMLDivElement>(null); 
+  const ApplyFasterRef = useRef<HTMLDivElement>(null); 
 
   const scrollToFooter = () => {
     if (footerRef.current) {

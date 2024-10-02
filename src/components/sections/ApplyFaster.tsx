@@ -8,11 +8,11 @@ const ApplyFaster = forwardRef<HTMLDivElement>((_, ref) => {
       className="md:flex md:flex-col-2 lg:flex-row md:rounded-md lg:px-20 items-start justify-between container mx-auto px-6 py-8 lg:py-20 gap-20"
     >
       <div className="w-full lg:w-1/2 flex justify-center relative mb-6 lg:mb-0">
-        <div className="rounded-xl p-6 flex justify-center items-center relative overflow-visible">
-          <div
+      <div
             className="absolute inset-0 bg-no-repeat bg-contain -z-10 h-full w-[full]"
-            style={{ backgroundImage: `url('/svg/applyfaster.svg')`, backgroundPosition: "center" }}
+            style={{ backgroundImage: `url('/svg/applyfaster.svg')`, backgroundPosition: "center"}}
           />
+        <div className="rounded-xl p-6 flex justify-center items-center relative overflow-visible">  
           <Image
             src="/svg/books.svg"
             alt="Graduant"
@@ -24,10 +24,9 @@ const ApplyFaster = forwardRef<HTMLDivElement>((_, ref) => {
       </div>
 
       <div className="w-full lg:w-1/2 flex flex-col lg:pl-12 relative lg:py-0">
-        <h2 className="bg-[url('/svg/stepsbg.svg')] font-Figtree font-bold text-dream-black text-2xl px-2 py-2 lg:text-4xl mb-6 whitespace-nowrap bg-no-repeat md:mt-12">
+        <h2 className="bg-[url('/svg/stepsbg.svg')] font-Figtree font-bold text-dream-black text-xl px-2 md:text-2xl py-2 lg:text-3xl mb-6 whitespace-nowrap bg-no-repeat md:mt-12">
           Application steps simplified
         </h2>
-
         <ul className="space-y-9">
           {[
             {
@@ -71,8 +70,6 @@ const ApplyFaster = forwardRef<HTMLDivElement>((_, ref) => {
     </div>
   );
 });
-
-// Set the display name for the component
 ApplyFaster.displayName = "ApplyFaster";
 
 export default ApplyFaster;

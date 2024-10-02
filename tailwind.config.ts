@@ -36,8 +36,10 @@ const config: Config = {
         "dream-hi-bg": "#DECBFD", 
         "dream-di": "#39B44A", 
         "dream-di-bg": "#D7FF7B", 
-         
-        
+      },
+      screens: {
+        'custom': { 'raw': '(min-width: 1024px) and (max-width: 1366px)' }, 
+        'custom1': { 'raw': '(min-width: 1280px) and (max-width: 1366px)' }, 
       },
       backgroundImage: {
         'custom-gradient': 'linear-gradient(180deg, #D7FF7B 0%, #F2FFD4 100%)',
