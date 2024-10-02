@@ -57,22 +57,23 @@ const Hero: React.FC = () => {
       </div>
 
       {/* Right Section with Images */}
-      <div className="relative flex flex-col justify-center items-center mb-5 lg:mt-20  bg-[url('/svg/herobg.svg')] bg-no-repeat bg-cover order-1 md:order-2">
+      <div className="relative flex flex-col justify-center items-center mb-5 lg:mt-20 bg-[url('/svg/herobg.svg')] bg-no-repeat bg-contain order-1 md:order-2">
         <div className="flex justify-center gap-8 lg:gap-16 items-center mb-10">
-          <Image src="/svg/graduant.svg" alt="Graduate" width={70} height={70} />
-          <Image src="/svg/cat.svg" alt="Cat Icon" width={135} height={147} />
-          <Image src="/svg/graduant1.svg" alt="Graduate 1" width={62} height={62} />
+            <Image src="/svg/graduant.svg" alt="Graduate" width={70} height={70} />
+            <Image src="/svg/cat.svg" alt="Cat Icon" width={135} height={147} />
+            <Image src="/svg/graduant1.svg" alt="Graduate 1" width={62} height={62} />
         </div>
 
         <div className="flex justify-center items-center mb-10">
-          <Image src="/svg/graduant2.svg" alt="Graduate 2" width={155} height={155} />
+            <Image src="/svg/graduant2.svg" alt="Graduate 2" width={155} height={155} />
         </div>
 
         <div className="flex justify-center gap-12 lg:gap-16 items-center sm:gap-12 lg:space-x-16 mt-5">
-          <Image src="/svg/graduant3.svg" alt="Graduate 3" width={90} height={90} />
-          <Image src="/svg/graduant4.svg" alt="Graduate 4" width={108} height={108} />
+            <Image src="/svg/graduant3.svg" alt="Graduate 3" width={90} height={90} />
+            <Image src="/svg/graduant4.svg" alt="Graduate 4" width={108} height={108} />
         </div>
-      </div>
+        </div>
+
     </div>
   );
 };
