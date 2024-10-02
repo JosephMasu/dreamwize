@@ -18,7 +18,7 @@ const ApplyFaster = forwardRef<HTMLDivElement>((_, ref) => {
             alt="Graduant"
             width={446}
             height={444}
-            className="rounded-xl object-contain p-10 md:p-1 -mt-5 lg:-mb-[6rem] md:-mb-[4rem] md:-mt-[-2rem]"
+            className="rounded-xl object-contain p-10 md:p-1 -mt-5 lg:-mb-[6rem]  md:-mb-[4rem] md:-mt-[-2rem]"
           />
         </div>
       </div>
