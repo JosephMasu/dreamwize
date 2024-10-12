@@ -123,7 +123,7 @@ const HowToApply: React.FC = () => {
                   src="/svg/highschool.svg"
                   width={32}
                   height={32}
-                  className="lg:px-1"
+                  className="lg:px-1 lg:py-1"
                 />
                 High School
               </small>
