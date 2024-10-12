@@ -12,7 +12,7 @@ const ApplyFaster = forwardRef<HTMLDivElement>((_, ref) => {
             className="absolute inset-0 bg-no-repeat bg-contain -z-10 h-full w-[full]"
             style={{ backgroundImage: `url('/svg/applyfaster.svg')`, backgroundPosition: "center"}}
           />
-        <div className="rounded-xl p-6 flex justify-center items-center relative overflow-visible">  
+        <div className="rounded-xl p-6 flex justify-center items-center relative overflow-visible md:mt-[5rem]">  
           <Image
             src="/svg/books.svg"
             alt="Graduant"
@@ -32,23 +32,39 @@ const ApplyFaster = forwardRef<HTMLDivElement>((_, ref) => {
             {
               imgSrc: "/svg/getintuoch.svg",
               title: "Get in touch",
-              description: "Discuss Career and Academic Options, Cost & Admission Requirements",
+              description: (
+              <>
+              Discuss Career and Academic Options,<br/> Cost & Admission Requirements
+              </>
+              ),
             },
             {
               imgSrc: "/svg/apply.svg",
               title: "Apply",
-              description: "Confirm University & Degree Choice, Provide Application Requirements",
+              description: (
+                <>
+                Confirm University & Degree Choice,<br/> Provide Application Requirements
+                </>
+                ),
             },
             {
               imgSrc: "/svg/apply.svg",
               title: "Accept Offer",
-              description: "Meet all the Required Conditions, Pay Tuition Deposit or Full Fees",
-            },
+              description: (
+                <>
+                Meet all the Required Conditions,,<br/> Pay Tuition Deposit or Full Fees,
+                </>
+                ),
+              },
             {
               imgSrc: "/svg/voyage.svg",
               title: "Bon Voyage",
-              description: "Apply for your Visa, Make Travel & Accommodation Bookings. Safe Trip!",
-            },
+              description: (
+                <>
+                Apply for your Visa, Make Travel & Accommodation,<br/> Bookings. Safe Trip!
+                </>
+                ),
+              },
           ].map((step, index) => (
             <li key={index} className="flex items-start md:-py-2">
               <Image
@@ -56,7 +72,7 @@ const ApplyFaster = forwardRef<HTMLDivElement>((_, ref) => {
                 alt={step.title}
                 width={32}
                 height={32}
-                className="mr-2 border-dream-green bg-dream-bg-green border-2 rounded-md md:w-[40px] md:h-[40px] w-[44px] h-[44px] flex items-center justify-center "
+                className="mr-2 border-dream-green bg-dream-bg-green border-2 rounded-custom-ssm md:w-[40px] md:h-[40px] w-[44px] h-[44px] flex items-center justify-center p-2 "
               />
               <div>
                 <strong className="text-dream-black font-Figtree font-semibold ">

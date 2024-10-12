@@ -3,7 +3,7 @@ import React, { useState, useEffect, forwardRef } from "react";
 
 const Footer = forwardRef<HTMLElement, React.HTMLProps<HTMLElement>>((props, ref) => {
   const [imageDimensions, setImageDimensions] = useState({
-    width: "100%", // default for small devices
+    width: "100%", 
     height: "auto",
   });
 
@@ -40,7 +40,7 @@ const Footer = forwardRef<HTMLElement, React.HTMLProps<HTMLElement>>((props, ref
         backgroundRepeat: "no-repeat",
       }}
     >
-      <div className="transform -translate-y-1/2 mb-5 lg:-mb-[13rem]">
+      <div className="transform -translate-y-1/2 mb-5 lg:-mb-[8rem]">
         <Image
           src="/svg/cat.svg"
           alt="Graduation Cap"
@@ -49,7 +49,7 @@ const Footer = forwardRef<HTMLElement, React.HTMLProps<HTMLElement>>((props, ref
           style={{
             width: imageDimensions.width,
             height: imageDimensions.height,
-            maxWidth: "90%",
+            maxWidth: "100%",
           }}
         />
       </div>
