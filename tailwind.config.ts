@@ -36,6 +36,9 @@ const config: Config = {
         "dream-hi-bg": "#DECBFD", 
         "dream-di": "#39B44A", 
         "dream-di-bg": "#D7FF7B", 
+        "dream-btn-bg": "#CFFF5F", 
+        'custom-gradient-top': '#D7FF7B', // Start color
+        'custom-gradient-bottom': '#F2FFD4',   // End color
       },
       screens: {
         'custom': { 'raw': '(min-width: 1024px) and (max-width: 1366px)' }, 
@@ -57,14 +60,15 @@ const config: Config = {
         Figtree: ['Figtree', 'sans-serif'],
       },
       fontSize: {
-        'lg': '3rem',
+        'lg': '48px',
         'md': '2rem',
         'sm': '1rem',
       },
       borderRadius: {
         'custom-lg': '60px', 
         'custom-md': '32px', 
-        'custom-sm': '16px', 
+        'custom-sm': '17px', 
+        'custom-ssm': '10px', 
       },
     },
   },

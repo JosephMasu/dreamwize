@@ -49,7 +49,7 @@ const Navbar: React.FC<NavbarProps> = ({ scrollToFooter, scrollToHowToApply, scr
           </li>
         </ul>
 
-        <button className="hidden lg:block px-4 ml-10 py-2 bg-bg-custom-gradient border-green-600 bg-dream-bg-green border-2 text-dream-black font-Figtree rounded-md hover:bg-green-200">
+        <button className="hidden lg:block px-4 ml-10 py-2 bg-bg-custom-gradient border-dream-btn-bg bg-gradient-to-b from-custom-gradient-top to-custom-gradient-bottom border-2 text-dream-black font-Figtree hover:bg-green-200 rounded-custom-sm">
           Find counsellor
         </button>
 
@@ -119,8 +119,8 @@ const Navbar: React.FC<NavbarProps> = ({ scrollToFooter, scrollToHowToApply, scr
                 target="_blank"
                 rel="noopener noreferrer"
                 >
-            <button className="px-4 py-2 bg-green-500 text-white rounded-md hover:bg-green-600">
-              Contact Us
+            <button className="px-4 py-2 bg-bg-custom-gradient border-dream-btn-bg bg-gradient-to-b from-custom-gradient-top to-custom-gradient-bottom border-2 text-dream-black font-Figtree hover:bg-green-200 rounded-custom-sm">
+              Find Counsellor
             </button>
             </a>
           </li>

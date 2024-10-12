@@ -4,19 +4,19 @@ const HowToApply: React.FC = () => {
   return (
     <div className="relative overflow-visible lg:rounded-custom-lg md:rounded-custom-md rounded-custom-sm container mx-auto px-6 lg:px-20">
       {/* Background Image Wrapper */}
-      <div className="relative bg-dream-bg bg-no-repeat bg-cover lg:rounded-custom-lg md:rounded-custom-md rounded-custom-sm h-full lg:h-[28rem] md:h-[21rem]">
+      <div className="relative bg-dream-bg bg-no-repeat bg-cover lg:rounded-custom-lg md:rounded-custom-md rounded-custom-sm h-full lg:h-[32rem] md:h-[24rem]">
         <div className="absolute inset-0 bg-dream-bg bg-no-repeat bg-cover lg:rounded-custom-lg md:rounded-custom-md rounded-custom-sm"></div>
 
         <div className="relative z-10 flex flex-col md:flex-row items-start justify-between h-full">
           {/* Left Section */}
-          <div className="w-full lg:w-1/2 flex flex-col lg:pl-12 p-6 md:p-8">
+          <div className="w-full lg:w-1/2 flex flex-col lg:mt-10 lg:pl-12 p-6 md:p-8">
             <h2 className="bg-[url('/svg/studybg.svg')] bg-no-repeat font-Figtree font-bold text-dream-black text-2xl lg:text-4xl mb-6">
               Study Options
             </h2>
 
             <ul className="space-y-6">
               <li className="flex items-start">
-                <div className="div-bg mr-4 border-dream-green bg-dream-bg-green border-2 rounded-md py-2 w-[44px] h-[44px] flex items-center justify-center">
+                <div className="div-bg mr-4 border-dream-green bg-dream-bg-green border-2 rounded-custom-ssm py-2 w-[44px] h-[44px] flex items-center justify-center p-2">
                   <Image
                     src="/svg/highschool.svg"
                     alt="Are you eligible"
@@ -36,7 +36,7 @@ const HowToApply: React.FC = () => {
               </li>
 
               <li className="flex items-start">
-                <div className="div-bg mr-4 border-dream-green bg-dream-bg-green border-2 rounded-md py-2 w-[44px] h-[44px] flex items-center justify-center">
+                <div className="div-bg mr-4 border-dream-green bg-dream-bg-green border-2 rounded-custom-ssm py-2 w-[44px] h-[44px] flex items-center justify-center p-2">
                   <Image
                     src="/svg/foundation.svg"
                     alt="Cheaper application fees"
@@ -56,7 +56,7 @@ const HowToApply: React.FC = () => {
               </li>
 
               <li className="flex items-start">
-                <div className="div-bg mr-4 border-dream-green bg-dream-bg-green border-2 rounded-md py-2 w-[44px] h-[44px] flex items-center justify-center">
+                <div className="div-bg mr-4 border-dream-green bg-dream-bg-green border-2 rounded-custom-ssm py-2 w-[44px] h-[44px] flex items-center justify-center p-2">
                   <Image
                     src="/svg/undergraduate.svg"
                     alt="Faster applications"
@@ -76,7 +76,7 @@ const HowToApply: React.FC = () => {
               </li>
 
               <li className="flex items-start">
-                <div className="div-bg mr-4 border-dream-green bg-dream-bg-green border-2 rounded-md py-2 w-[44px] h-[44px] flex items-center justify-center">
+                <div className="div-bg mr-4 border-dream-green bg-dream-bg-green border-2 rounded-custom-ssm py-2 w-[44px] h-[44px] flex items-center justify-center p-2">
                   <Image
                     src="/svg/masters.svg"
                     alt="Faster applications"
@@ -105,25 +105,25 @@ const HowToApply: React.FC = () => {
                 alt="Graduant"
                 width={549}
                 height={755}
-                className="rounded-xl object-contain p-4 md:-mt-[3rem] lg:-mt-[10.5rem] overflow-visible"
+                className="rounded-xl object-contain p-4 md:p-0 md:-mb-[4rem] lg:-mt-[10.5rem] md:-mt-[-0.5rem] overflow-visible"
               />
-              <small className="absolute whitespace-nowrap z-10 xl:-top-[-12.5rem] lg:-top-[-6.5rem]  xl:right-[20.5rem] lg:right-[17.5rem]  md:-top-[-9.5rem] -top-[-11rem] right-[13rem] md:right-[13.5rem] transform rotate-sm lg:rotate-[345deg] md:rotate-[340deg] rounded-full px-1 font-Figtree font-medium text-dream-di bg-dream-di-bg border-2 border-dream-di inline-flex items-center">
+              <small className="absolute whitespace-nowrap z-10 xl:-top-[-12.5rem] lg:-top-[-6.5rem]  xl:right-[20.5rem] lg:right-[17.5rem]  md:-top-[-9.5rem] -top-[-11rem] right-[13rem] md:right-[13.5rem] transform rotate-sm lg:rotate-[345deg] md:rotate-[350deg] rounded-full px-1 font-Figtree font-medium text-dream-di bg-dream-di-bg border-2 border-dream-di inline-flex items-center">
                 <Image
                   alt="usa"
                   src="/svg/dip.svg"
                   width={32}
                   height={32}
-                  className="lg:px-1 px-1"
+                  className="lg:px-1 lg:py-2"
                 />
                 Diploma Degree
               </small>
-              <small className="absolute z-10 lg:-top-[-10rem] xl:right-[18rem] xl:-top-[-16rem] lg:right-[14rem]  md:top-[13.5rem] top-[15rem] right-[11rem] md:right-[11rem] transform rotate lg:rotate-[360deg] md:rotate-[360deg] sm:rotate-[300deg] rounded-full px-1 font-Figtree font-medium text-dream-hi bg-dream-hi-bg border-2 border-dream-hi inline-flex items-center">
+              <small className="absolute z-10 lg:-top-[-10rem] xl:right-[18rem] xl:-top-[-16rem] lg:right-[14rem]  md:top-[15.5rem] top-[15rem] right-[11rem] md:right-[11rem] transform rotate lg:rotate-[360deg] md:rotate-[360deg] sm:rotate-[300deg] rounded-full px-1 lg:py-1 font-Figtree font-medium text-dream-hi bg-dream-hi-bg border-2 border-dream-hi inline-flex items-center">
                 <Image
                   alt="usa"
                   src="/svg/highschool.svg"
                   width={32}
                   height={32}
-                  className="lg:px-1 px-1"
+                  className="lg:px-1"
                 />
                 High School
               </small>
@@ -133,7 +133,7 @@ const HowToApply: React.FC = () => {
                   src="/svg/mas.svg"
                   width={32}
                   height={32}
-                  className="mr-1 px-1 sm:px-1"
+                  className="mr-1 lg:py-2 sm:px-1"
                 />
                 Masters Degree
               </small>
@@ -143,7 +143,7 @@ const HowToApply: React.FC = () => {
                   src="/svg/ba.svg"
                   width={32}
                   height={32}
-                  className="mr-1 px-1"
+                  className="mr-1 lg:py-1"
                 />
                 Bachelors Degree
               </small>

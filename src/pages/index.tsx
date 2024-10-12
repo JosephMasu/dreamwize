@@ -51,7 +51,7 @@ export default function Home() {
         <ApplyFaster />
         </div>
         
-        <Footer ref={footerRef} /> {/* Attach ref to the Footer */}
+        <Footer ref={footerRef} /> 
       </main>
     </>
   );
