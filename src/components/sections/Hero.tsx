@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 const Hero: React.FC = () => {
-  const whatsappNumber = '+256754888626';
+  const whatsappNumber = "+14809968408";
   const message = 'Hello, I got this number from DreamWise web site...';
 
   return (
