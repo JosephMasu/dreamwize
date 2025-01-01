@@ -23,7 +23,7 @@ const Hero: React.FC = () => {
             Canada
           </small>
 
-          {/* Adjusting spacing between the headers */}
+          
             <h1 className=" font-Figtree font-bold text-dream-black text-md lg:text-lg mb-4 lg:mb-2 md:mt-4 mt-1 transform -translate-y-3 whitespace-nowrap bg-no-repeat w-full">
               to study abroad.
             </h1>
