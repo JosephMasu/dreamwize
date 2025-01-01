@@ -28,7 +28,7 @@ const Hero: React.FC = () => {
               to study abroad.
             </h1>
 
-          {/* Rotated Small Tag for United Kingdom */}
+        
           <small className="absolute lg:top-[20.23rem] md:top-[9.4rem] top-[8.5rem] md:right-[9.5rem] lg:-right-[1rem] right-32 transform rotate-[-20deg] sm:rotate-[-25deg] rounded-full lg:px-1 font-Figtree sm:font-small font-medium text-dream-black bg-dream-uk-bg border-2 border-dream-uk inline-flex items-center pr-2">
             <Image alt="uk" src="/svg/uk.svg" width={32} height={32} className="mr-1 lg:py-1" />
             UnitedKingdom
