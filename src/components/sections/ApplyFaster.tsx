@@ -2,6 +2,7 @@ import Image from "next/image";
 import React, { forwardRef } from "react";
 
 const ApplyFaster = forwardRef<HTMLDivElement>((_, ref) => {
+  
   return (
     <div
       ref={ref}
