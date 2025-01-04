@@ -17,7 +17,6 @@ const Hero: React.FC = () => {
             Start your journey
           </h1>
 
-          {/* Canada Small Tag */}
           <small className="absolute lg:top-[14.5rem] md:top-[9.2rem]  top-[8.5rem] md:right-[1.4rem] lg:-right-[4rem] right-2 transform lg:rotate-[17deg] rotate-[30deg] rounded-full font-Figtree font-medium text-dream-black bg-dream-canada-bg border-2 border-dream-canada inline-flex items-center pr-2">
             <Image alt="canada" src="/svg/canada.svg" width={32} height={32} className="mr-1 lg:py-1" />
             Canada
