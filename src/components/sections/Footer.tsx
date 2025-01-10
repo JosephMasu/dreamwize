@@ -1,6 +1,5 @@
 import Image from "next/image";
 import React, { useState, useEffect, forwardRef } from "react";
-
 const Footer = forwardRef<HTMLElement, React.HTMLProps<HTMLElement>>((props, ref) => {
   const [imageDimensions, setImageDimensions] = useState({
     width: "100%", 
