@@ -5,7 +5,6 @@ const Footer = forwardRef<HTMLElement, React.HTMLProps<HTMLElement>>((props, ref
     width: "100%", 
     height: "auto",
   });
-
   useEffect(() => {
     const handleResize = () => {
       const screenWidth = window.innerWidth;
