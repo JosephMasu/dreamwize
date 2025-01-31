@@ -1,5 +1,4 @@
 import Image from "next/image";
-
 const FindProgram: React.FC = () => {
   return (
     <div className="md:flex md:flex-col-2 lg:flex-row items-start justify-between container mx-auto px-6 lg:px-20 gap-20 ">
