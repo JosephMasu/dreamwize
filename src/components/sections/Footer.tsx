@@ -55,7 +55,6 @@ const Footer = forwardRef<HTMLElement, React.HTMLProps<HTMLElement>>((props, ref
   );
 });
 
-// Set the display name for the component
 Footer.displayName = "Footer";
 
 export default Footer;
